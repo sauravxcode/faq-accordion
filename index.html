@@ -40,22 +40,6 @@
             <p>To create a hyperlink in HTML, you can use the &lt;a&gt; tag with the href attribute. For example: <br> <br> <code> &lt;a href="https://www.example.com"&gt;Link Text&lt;/a&gt;. </code></p>
         </div>
     </div> 
-
-    <script>
-        var acc = document.getElementsByClassName("accordion");
-        var i;
-
-        for (i = 0; i < acc.length; i++) {
-            acc[i].addEventListener("click", function() {
-                this.classList.toggle("active");
-                var panel = this.nextElementSibling;
-                if (panel.style.display === "block") {
-                    panel.style.display = "none";
-                } else {
-                    panel.style.display = "block";
-                }
-            });
-        }
-    </script>
+    <script src="assets/js/script.js"></script> 
 </body>
 </html>
